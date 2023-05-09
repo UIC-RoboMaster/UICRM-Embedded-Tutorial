@@ -1,5 +1,7 @@
 # 如何使用 Git
 
+[English](README.md) | [中文](README_CN.md)
+
 ## 1. Git 简介
 
 ### 1.1 什么是 Git
