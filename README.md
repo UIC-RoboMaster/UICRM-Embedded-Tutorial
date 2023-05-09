@@ -9,7 +9,7 @@ The Tutorial of learning embedded system of RoboMaster Competition, including ba
 ### Part.0 Basic Knowledge in Computer Science
 
 1. How to search for the internet
-2. How to use Git / Introduction of GitHub / How to make a Pull Request / How to merge the code.
+2. [How to use Git / Introduction of GitHub / How to make a Pull Request / How to merge the code.](Part.0/2.How_to_use_git/README.md)
 
 ### Part.1 STM32 Introduction
 
