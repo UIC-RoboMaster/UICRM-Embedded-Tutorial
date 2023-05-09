@@ -1,13 +1,16 @@
 # UICRM-Embedded-Tutorial
+
 The Tutorial of learning embedded system of RoboMaster Competition, including basic Develop skills, STM32, PID and some basic controll algorithm.
 
 ## Content
 
 ### Part.0 Basic Knowledge in Computer Science
+
 1. How to search for the internet
 2. How to use Git / Introduction of GitHub / How to make a Pull Request / How to merge the code.
 
 ### Part.1 STM32 Introduction
+
 1. Install Environments
 2. How to read the Circuit diagram / New empty Project
 3. Light LED
@@ -28,6 +31,7 @@ The Tutorial of learning embedded system of RoboMaster Competition, including ba
 18. DMA
 
 ### Part.2 Knowledge on RoboMaster Embedded System
+
 1. Basic circuit knowledge / D-Bus (Implement an inverse circuit)
 2. Introduction to PID
 3. How to Setting PID
@@ -35,8 +39,3 @@ The Tutorial of learning embedded system of RoboMaster Competition, including ba
 5. Karman flitter / AHRS / Get The AHRS angle
 6. Cascade PID
 7. Control the Gimbal
-
-
-
-
-
