@@ -1,6 +1,6 @@
 # UIC RoboMaster 嵌入式教程
 
-[English](README.md) | [中文](README_CN.md)
+[English](README.md) | [中文](README_zh.md)
 
 UIC RoboMaster 战队的嵌入式系统学习教程，包括基本的开发技巧、STM32、PID 和一些基本的控制算法。
 

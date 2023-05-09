@@ -1,6 +1,6 @@
 # UICRM-Embedded-Tutorial
 
-[English](README.md) | [中文](README_CN.md)
+[English](README.md) | [中文](README_zh.md)
 
 The Tutorial of learning embedded system of RoboMaster Competition, including basic Develop skills, STM32, PID and some basic controll algorithm.
 
