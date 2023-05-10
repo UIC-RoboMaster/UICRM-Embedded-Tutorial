@@ -185,6 +185,14 @@ git merge <branch name>
 git remote add <remote name> <remote address>
 ```
 
+#### 1.5.11 删除远程仓库
+
+在终端中运行以下命令：
+
+```bash
+git remote rm <remote name>
+```
+
 ## 2. GitHub
 
 ### 2.1 什么是 GitHub
