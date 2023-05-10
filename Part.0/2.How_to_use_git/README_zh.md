@@ -134,6 +134,9 @@ git reflog
 在终端中运行以下命令：
 
 ```bash
+# List the branches
+git branch
+
 # Create a branch
 git branch <branch name>
 
@@ -184,6 +187,10 @@ git merge <branch name>
 ```bash
 git remote add <remote name> <remote address>
 ```
+
+### 1.6 Git 忽略文件
+
+在仓库根目录下创建一个名为`.gitignore`的文件，在文件中写入需要忽略的文件名或目录名。
 
 ## 2. GitHub
 
