@@ -134,6 +134,9 @@ git reflog
 Run the following command in the terminal:
 
 ```bash
+# List the branches
+git branch
+
 # Create a branch
 git branch <branch name>
 
@@ -184,6 +187,10 @@ run the following command in the terminal:
 ```bash
 git remote add <remote name> <remote address>
 ```
+
+### 1.6 Git Ignore
+
+Create a file named `.gitignore` in the root directory of the repository, and write the file name or directory name that needs to be ignored in the file.
 
 ## 2. GitHub
 
