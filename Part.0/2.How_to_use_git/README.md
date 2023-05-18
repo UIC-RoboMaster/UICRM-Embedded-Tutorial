@@ -304,4 +304,10 @@ Pull Request is a function provided by GitHub (and many others git remote provid
 
 
 ## 4 Use Git in Clion
+
 [Official Documents](https://www.jetbrains.com/help/clion/using-git-integration.html)
+
+## 5 Use Git in Visual Studio Code
+
+[Official Documents](https://code.visualstudio.com/docs/sourcecontrol/intro-to-git)
+[Official Tutorial](https://learn.microsoft.com/en-us/training/modules/use-git-from-vs-code/)
