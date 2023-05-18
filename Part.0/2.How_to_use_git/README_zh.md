@@ -288,7 +288,7 @@ git pull <remote name> <branch name>
 
 Pull Request 是 GitHub 提供的功能（以及许多其他 Git 远程提供商），该功能用于将代码提交给存储库。 它通常用于合并和代码审核。
 
-### 3.2 How to use Pull Request
+### 3.2 如何使用 PR
 
 1. 单击存储库页面右上角的 `Pull requests` 按钮，然后在下拉菜单中单击 `New pull request`。
 2. 选择需要合并的分支。
@@ -298,6 +298,10 @@ Pull Request 是 GitHub 提供的功能（以及许多其他 Git 远程提供商
 6. 你可以发现你的 pull request 已经创建了。
 7. 如果你想合并这个 pull request，点击 `Merge pull request` 然后点击 `Confirm merge`.
 
-### 3.3 If there are conflicts in PR
+### 3.3 如果在 PR 中遇到冲突
 
 1. 如果你的PR有冲突，你需要手动在本地修改文件以解决冲突（GitHub 会提示你哪些文件有冲突并且会告诉你如何解决）。然后你需要提交这些修改。
+
+## 4 在 Clion 中使用 Git
+[Official Documents](https://www.jetbrains.com/help/clion/using-git-integration.html)
+
