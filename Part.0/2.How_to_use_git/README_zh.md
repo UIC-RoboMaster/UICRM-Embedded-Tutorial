@@ -303,5 +303,11 @@ Pull Request 是 GitHub 提供的功能（以及许多其他 Git 远程提供商
 1. 如果你的PR有冲突，你需要手动在本地修改文件以解决冲突（GitHub 会提示你哪些文件有冲突并且会告诉你如何解决）。然后你需要提交这些修改。
 
 ## 4 在 Clion 中使用 Git
+
 [Official Documents](https://www.jetbrains.com/help/clion/using-git-integration.html)
 
+## 5 在 Visual Studio Code 使用 Git
+
+[Official Documents](https://code.visualstudio.com/docs/sourcecontrol/intro-to-git)
+
+[Official Tutorial](https://learn.microsoft.com/zh-cn/training/modules/use-git-from-vs-code/)
