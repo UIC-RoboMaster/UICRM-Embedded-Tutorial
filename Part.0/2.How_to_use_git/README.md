@@ -310,4 +310,5 @@ Pull Request is a function provided by GitHub (and many others git remote provid
 ## 5 Use Git in Visual Studio Code
 
 [Official Documents](https://code.visualstudio.com/docs/sourcecontrol/intro-to-git)
+
 [Official Tutorial](https://learn.microsoft.com/en-us/training/modules/use-git-from-vs-code/)
