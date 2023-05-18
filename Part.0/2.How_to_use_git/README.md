@@ -301,3 +301,7 @@ Pull Request is a function provided by GitHub (and many others git remote provid
 ### 3.3 If there are conflicts in PR
 
 1. If there are conflicts in PR, you need to manually modify the conflict file and then add and commit it.
+
+
+## 4 Use Git in Clion
+[Official Documents](https://www.jetbrains.com/help/clion/using-git-integration.html)
