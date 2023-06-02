@@ -14,7 +14,7 @@ The Tutorial of learning embedded system of RoboMaster Competition, including ba
 ### Part.1 STM32 Introduction
 
 1. [Install Environments](Part.1/1.Install_Environments/README.md)
-2. How to read the Circuit diagram / New empty Project
+2. [How to read the Circuit diagram / New empty Project](Part.1/2.New_Empty_Project/README.md)
 3. Light LED
 4. Shine the LED
 5. Breakpoints, analyzing and debugging

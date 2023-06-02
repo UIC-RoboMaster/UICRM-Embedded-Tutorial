@@ -14,7 +14,7 @@ UIC RoboMaster 战队的嵌入式系统学习教程，包括基本的开发技�
 ### Part.1 STM32从入门到劝退
 
 1. [安装环境](Part.1/1.Install_Environments/README_zh.md)
-2. 原理图识别/新建工程
+2. [原理图识别/新建工程](Part.1/2.New_Empty_Project/README_zh.md)
 3. 点亮LED
 4. 闪烁LED
 5. 断点/分析与调试
