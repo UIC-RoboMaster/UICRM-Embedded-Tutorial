@@ -14,9 +14,13 @@
 [扩展板电路图(Rev 1.1)](attachments/SCH_Schematic1_2023-06-02.pdf)
 
 MCU: STM32F103C8T6 / STM32F103CBT6 [DataSheet](https://www.st.com/resource/en/datasheet/stm32f103c8.pdf)
+
 RAM: 20KB
+
 Flash: 64KB / 128KB
+
 频率: 72MHz
+
 电源:
 
     Rev 1.0: 5V (USB / XH2.54 2P)
@@ -41,10 +45,15 @@ Flash: 64KB / 128KB
 [电路图](attachments/RoBoMaster%20%E5%BC%80%E5%8F%91%E6%9D%BF%20C%20%E5%9E%8B%E5%8E%9F%E7%90%86%E5%9B%BE.pdf)
 
 MCU: STM32F407IGH6 [DataSheet](https://www.st.com/resource/en/datasheet/stm32f407ig.pdf)
+
 RAM: 192KB(128KB + 64KB CCM)
+
 Flash: 1MB
+
 频率: 168MHz
+
 电源: 7-28V (XT30, 可以直接使用DJI TB47/TB48电池)
+
 通讯:
 
     USB / UART*2 / I2C / SPI / CAN*2 / D-BUS
@@ -67,10 +76,15 @@ Flash: 1MB
 [电路图](attachments/RoboMaster%20%E5%BC%80%E5%8F%91%E6%9D%BFA%E5%9E%8B%20%E5%8E%9F%E7%90%86%E5%9B%BE.pdf)
 
 MCU: STM32F427IIH6 [DataSheet](https://www.st.com/resource/en/datasheet/stm32f427ii.pdf)
+
 RAM: 256KB(192KB + 64KB CCM)
+
 Flash: 2MB
+
 频率: 180MHz(当前使用 168MHz)
+
 电源: 7-28V (XT30, 可以直接使用DJI TB47/TB48电池)
+
 通讯:
 
     USB / UART*4 / I2C / SPI / CAN*2 / D-BUS
@@ -90,10 +104,15 @@ Flash: 2MB
 [电路图](attachments/MC_Board%E5%8E%9F%E7%90%86%E5%9B%BE.pdf)
 
 MCU: STM32F446RCT6 [DataSheet](https://www.st.com/resource/en/datasheet/stm32f446rc.pdf)
+
 RAM: 128KB
+
 Flash: 256KB
+
 频率: 180MHz(当前使用 168MHz)
+
 电源: 7-28V (XT30, Can Directly Connect to DJI TB47/TB48 Battery)
+
 通讯:
 
     USB / UART*2 / RS485*2 / I2C / SPI / CAN*2 / D-BUS

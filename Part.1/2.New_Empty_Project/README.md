@@ -14,9 +14,13 @@ We have four type of boards now. The Nano_F103 board usually used for education,
 [Circuit Diagram For Extend Board(Rev 1.1)](attachments/SCH_Schematic1_2023-06-02.pdf)
 
 MCU: STM32F103C8T6 / STM32F103CBT6 [DataSheet](https://www.st.com/resource/en/datasheet/stm32f103c8.pdf)
+
 RAM: 20KB
+
 Flash: 64KB / 128KB
+
 Frequency: 72MHz
+
 Power:
 
     Rev 1.0: 5V (USB / XH2.54 2P)
@@ -41,10 +45,15 @@ Fimware Update: SWD(4Pin 2.54)
 [Circuit Diagram](attachments/RoBoMaster%20%E5%BC%80%E5%8F%91%E6%9D%BF%20C%20%E5%9E%8B%E5%8E%9F%E7%90%86%E5%9B%BE.pdf)
 
 MCU: STM32F407IGH6 [DataSheet](https://www.st.com/resource/en/datasheet/stm32f407ig.pdf)
+
 RAM: 192KB(128KB + 64KB CCM)
+
 Flash: 1MB
+
 Frequency: 168MHz
+
 Power: 7-28V (XT30, Can Directly Connect to DJI TB47/TB48 Battery)
+
 Communication:
 
     USB / UART*2 / I2C / SPI / CAN*2 / D-BUS
@@ -67,10 +76,15 @@ Fimware Update: SWD(MX 1.25 4Pin)
 [Circuit Diagram](attachments/RoboMaster%20%E5%BC%80%E5%8F%91%E6%9D%BFA%E5%9E%8B%20%E5%8E%9F%E7%90%86%E5%9B%BE.pdf)
 
 MCU: STM32F427IIH6 [DataSheet](https://www.st.com/resource/en/datasheet/stm32f427ii.pdf)
+
 RAM: 256KB(192KB + 64KB CCM)
+
 Flash: 2MB
+
 Frequency: 180MHz(Currently Run on 168MHz)
+
 Power: 7-28V (XT30, Can Directly Connect to DJI TB47/TB48 Battery)
+
 Communication:
 
     USB / UART*4 / I2C / SPI / CAN*2 / D-BUS
@@ -90,10 +104,15 @@ Fimware Update: SWD(MX 1.25 4Pin)
 [Circuit Diagram](attachments/MC_Board%E5%8E%9F%E7%90%86%E5%9B%BE.pdf)
 
 MCU: STM32F446RCT6 [DataSheet](https://www.st.com/resource/en/datasheet/stm32f446rc.pdf)
+
 RAM: 128KB
+
 Flash: 256KB
+
 Frequency: 180MHz(Currently Run on 168MHz)
+
 Power: 7-28V (XT30, Can Directly Connect to DJI TB47/TB48 Battery)
+
 Communication:
 
     USB / UART*2 / RS485*2 / I2C / SPI / CAN*2 / D-BUS
