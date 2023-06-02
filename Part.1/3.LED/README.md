@@ -2,6 +2,8 @@
 
 [English](README.md) | [中文](README_zh.md)
 
+Let's light the LED, it is the first step to learn the embedded system.
+
 ## 1. Configure STM32CubeMX
 
 We assume that you have already new a project and update the clock configuration. If not, please refer to [New Empty Project](../2.New_Empty_Project/README.md).

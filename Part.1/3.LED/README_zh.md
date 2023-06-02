@@ -2,6 +2,8 @@
 
 [English](README.md) | [中文](README_zh.md)
 
+让我们点亮一枚 LED，这是学习嵌入式系统的第一步。
+
 ## 1. 配置 STM32CubeMX
 
 我们假设你已经新建了一个工程并且更新了时钟配置。如果没有，请参考[新建空工程](../2.New_Empty_Project/README_zh.md)。
