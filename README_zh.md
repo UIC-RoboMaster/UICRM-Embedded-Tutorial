@@ -17,9 +17,9 @@ UIC RoboMaster 战队的嵌入式系统学习教程，包括基本的开发技�
 
 1. [安装环境](Part.1/1.Install_Environments/README_zh.md)
 2. [原理图识别/新建工程](Part.1/2.New_Empty_Project/README_zh.md)
-3. 点亮LED
-4. 闪烁LED
-5. 断点/分析与调试
+3. [点亮LED](Part.1/3.Light_LED/README_zh.md)
+4. [闪烁LED](Part.1/4.Flash_LED/README_zh.md)
+5. [断点/分析与调试](Part.1/5.BreakPoint/README_zh.md)
 6. 按键输入（轮询方法）
 7. 按键输入（中断方法）+中断简介
 8. 定时器简介/使用定时器点亮LED

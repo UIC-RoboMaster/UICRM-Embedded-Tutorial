@@ -17,9 +17,9 @@ We assume that the people joined to our team has completed the COMP1023 Course, 
 
 1. [Install Environments](Part.1/1.Install_Environments/README.md)
 2. [How to read the Circuit diagram / New empty Project](Part.1/2.New_Empty_Project/README.md)
-3. Light LED
-4. Shine the LED
-5. Breakpoints, analyzing and debugging
+3. [Light LED](Part.1/3.Light_LED/README.md)
+4. [Shine the LED](Part.1/4.Shine_LED/README.md)
+5. [Breakpoints, analyzing and debugging](Part.1/5.BreakPoint/README.md)
 6. Key input ( use inout method )
 7. Key inturrupt input && Introduction of inturrupt
 8. Introduction of timer / Use timer to shine the LED
