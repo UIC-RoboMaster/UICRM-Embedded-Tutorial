@@ -20,9 +20,9 @@ UIC RoboMaster 战队的嵌入式系统学习教程，包括基本的开发技�
 3. [点亮LED](Part.1/3.Light_LED/README_zh.md)
 4. [闪烁LED](Part.1/4.Flash_LED/README_zh.md)
 5. [断点/分析与调试](Part.1/5.BreakPoint/README_zh.md)
-6. 按键输入（轮询方法）
-7. 按键输入（中断方法）+中断简介
-8. 定时器简介/使用定时器点亮LED
+6. [按键输入（轮询方法）](Part.1/6.Key_Input/README_zh.md)
+7. [按键输入（中断方法）+中断简介](Part.1/7.Key_Inturrupt/README_zh.md)
+8. [定时器简介/使用定时器点亮LED](Part.1/8.Timer/README_zh.md)
 9. 呼吸灯/servo/PWM输出
 10. 蜂鸣器/频率计算
 11. ADC
