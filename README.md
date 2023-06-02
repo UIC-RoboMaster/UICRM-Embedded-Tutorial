@@ -20,7 +20,7 @@ We assume that the people joined to our team has completed the COMP1023 Course, 
 3. [Light LED](Part.1/3.Light_LED/README.md)
 4. [Shine the LED](Part.1/4.Shine_LED/README.md)
 5. [Breakpoints, analyzing and debugging](Part.1/5.BreakPoint/README.md)
-6. [Key input ( use inout method )](Part.1/6.Key_Input/README.md)
+6. [Key input ( use polling method )](Part.1/6.Key_Input/README.md)
 7. [Key inturrupt input && Introduction of inturrupt](Part.1/7.Key_Inturrupt/README.md)
 8. [Introduction of timer / Use timer to shine the LED](Part.1/8.Timer/README.md)
 9. Breathing light / Servo/ PWM output
