@@ -4,6 +4,8 @@
 
 The Tutorial of learning embedded system of RoboMaster Competition, including basic Develop skills, STM32, PID and some basic controll algorithm.
 
+We assume that the people joined to our team has completed the COMP1023 Course, so we will not introduce the basic knowledge of C language. If you are not familiar with C language, please learn it first.
+
 ## Content
 
 ### Part.0 Basic Knowledge in Computer Science
