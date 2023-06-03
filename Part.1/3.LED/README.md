@@ -28,17 +28,17 @@ Then generate the code.
 
 In the `Core/Src/main.c` file, we can see the `while(1)` loop. We can write the code in the loop.
 
-    ```c
-    /* USER CODE BEGIN WHILE */
-    while (1)
-    {
-        /* USER CODE END WHILE */
+```c
+/* USER CODE BEGIN WHILE */
+while (1)
+{
+    /* USER CODE END WHILE */
 
-        /* USER CODE BEGIN 3 */
-        HAL_GPIO_WritePin(GPIOC, GPIO_PIN_13, GPIO_PIN_RESET);
-        HAL_Delay(1000);
-    } 
-    ```
+    /* USER CODE BEGIN 3 */
+    HAL_GPIO_WritePin(GPIOC, GPIO_PIN_13, GPIO_PIN_RESET);
+    HAL_Delay(1000);
+} 
+```
 
 The `HAL_GPIO_WritePin` function is used to toggle the pin. The first parameter is the GPIO port, the second parameter is the GPIO pin, and the third parameter is the GPIO pin state. The `GPIO_PIN_RESET` means the pin is low, and the `GPIO_PIN_SET` means the pin is high.
 The `HAL_Delay` function is used to delay. The parameter is the delay time in milliseconds.

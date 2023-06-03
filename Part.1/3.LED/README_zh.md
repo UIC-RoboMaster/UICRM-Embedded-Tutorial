@@ -28,18 +28,18 @@
 
 在 `Core/Src/main.c` 文件中，我们可以看到 `while(1)` 循环。我们可以在循环中编写代码。
 
-    ```c
-    /* USER CODE BEGIN WHILE */
-    while (1)
-    {
-        /* USER CODE END WHILE */
+```c
+/* USER CODE BEGIN WHILE */
+while (1)
+{
+    /* USER CODE END WHILE */
 
-        /* USER CODE BEGIN 3 */
-        HAL_GPIO_WritePin(GPIOC, GPIO_PIN_13, GPIO_PIN_RESET);
-        HAL_Delay(1000);
-    } 
-    /* USER CODE END 3 */
-    ```
+    /* USER CODE BEGIN 3 */
+    HAL_GPIO_WritePin(GPIOC, GPIO_PIN_13, GPIO_PIN_RESET);
+    HAL_Delay(1000);
+} 
+/* USER CODE END 3 */
+```
 
 函数 `HAL_GPIO_WritePin` 用于切换引脚状态。第一个参数是 GPIO 端口，第二个参数是 GPIO 引脚，第三个参数是 GPIO 引脚状态。`GPIO_PIN_RESET` 表示引脚低电平，`GPIO_PIN_SET` 表示引脚高电平。
 函数 `HAL_Delay` 用于延时。参数是延时时间，单位是毫秒。
