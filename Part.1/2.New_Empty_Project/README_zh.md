@@ -99,7 +99,7 @@ Flash: 2MB
 
 ### 1.4. DM_MC01 Board
 
-![DM_MC01](images/DM_MC01.jpg)
+![DM_MC01](images/DM_MC01.png)
 
 [电路图](attachments/MC_Board%E5%8E%9F%E7%90%86%E5%9B%BE.pdf)
 
