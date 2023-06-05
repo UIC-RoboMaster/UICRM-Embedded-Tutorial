@@ -1,5 +1,7 @@
 #  How to Efficiently Search for Information
 
+[English](README.md) | [中文](README_zh.md)
+
 ### Regarding Searching
 
 **Abandon Baidu, Make Good Use of Google**
