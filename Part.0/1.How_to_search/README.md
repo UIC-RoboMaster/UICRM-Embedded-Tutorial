@@ -39,4 +39,4 @@ To summarize briefly:
 
 Registration and usage require a mobile phone number and IP address from outside mainland China, Hong Kong, and Macau.
 
-U1S1 (referring to the language model) is quite useful for solving some fuzzy search problems and summarizing content to aid in rapid understanding of concepts. However, it often exhibits descriptive errors when dealing with slightly complex concepts. It is recommended to verify such information using Google.
+To be honest, ChatGPT is quite useful as it can help with some fuzzy searches and provide summaries to aid in quickly understanding concepts. However, it often makes errors when dealing with slightly complex concepts. It's advisable to verify the information using Google.
