@@ -10,7 +10,7 @@ UIC RoboMaster 战队的嵌入式系统学习教程，包括基本的开发技�
 
 ### Part.0 CS基础知识
 
-1. 如何友好的查找资料/正确的搜索东西
+1. [如何友好的查找资料/正确的搜索东西](Part.0/1.How_to_search/README_zh.md)
 2. [Git的使用/GitHub/如何发起PR/如何合并分支](Part.0/2.How_to_use_git/README_zh.md)
 
 ### Part.1 STM32从入门到劝退
