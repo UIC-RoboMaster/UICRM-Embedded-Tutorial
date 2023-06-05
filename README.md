@@ -10,7 +10,7 @@ We assume that the people joined to our team has completed the COMP1023 Course, 
 
 ### Part.0 Basic Knowledge in Computer Science
 
-1. [How to search for the internet](Part.0/1.How_to_search/README.md)
+1. How to search for the internet
 2. [How to use Git / Introduction of GitHub / How to make a Pull Request / How to merge the code.](Part.0/2.How_to_use_git/README.md)
 
 ### Part.1 STM32 Introduction
