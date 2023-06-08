@@ -6,6 +6,12 @@
 
 前往 GNU Arm Embedded Toolchain [下载页面](https://developer.arm.com/tools-and-software/open-source-software/developer-tools/gnu-toolchain/gnu-rm/downloads)下载最新版本的工具链。
 
+macOS 用户可以使用 `brew` 来安装工具链。
+
+```bash
+brew install gcc-arm-embedded
+```
+
 ## 2. 安装 STM32CubeMX
 
 前往 [STM32CubeMX](https://www.st.com/en/development-tools/stm32cubemx.html) 下载页面下载最新版本的工具。
@@ -24,7 +30,7 @@ brew install openocd
 
 前往 [cmake](https://cmake.org/) 下载页面下载最新版本的工具。
 
-## 5. 安装 LLVM(For clang-format)
+## 5. 安装 LLVM(For clang-format, Windows only)
 
 前往 [LLVM](https://releases.llvm.org/download.html) 下载页面下载最新版本的工具。
 

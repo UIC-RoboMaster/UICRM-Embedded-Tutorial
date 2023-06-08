@@ -6,6 +6,12 @@
 
 Go to the GNU Arm Embedded Toolchain [download page](https://developer.arm.com/tools-and-software/open-source-software/developer-tools/gnu-toolchain/gnu-rm/downloads) and download the latest version of the toolchain for your operating system.
 
+macOS users can use `brew` to install the toolchain.
+
+```bash
+brew install gcc-arm-embedded
+```
+
 ## 2. Install STM32CubeMX
 
 Go to the [STM32CubeMX](https://www.st.com/en/development-tools/stm32cubemx.html) download page and download the latest version of the tool for your operating system.
@@ -24,7 +30,7 @@ brew install openocd
 
 Go to the [cmake](https://cmake.org/) download page and download the latest version of the tool for your operating system.
 
-## 5. Install LLVM(For clang-format)
+## 5. Install LLVM(For clang-format, Windows only)
 
 Go to the [LLVM](https://releases.llvm.org/download.html) download page and download the latest version of the tool for your operating system.
 
