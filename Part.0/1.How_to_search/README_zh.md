@@ -1,4 +1,4 @@
-# 如何友好的查找资料
+# 如何友好地查找资料
 
 [English](README.md) | [中文](README_zh.md)
 
