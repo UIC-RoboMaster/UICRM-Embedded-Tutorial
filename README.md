@@ -30,7 +30,7 @@ We assume that the people joined to our team has completed the COMP1023 Course, 
 13. Multi thread && How to use flags
 14. I2C / OLED / MPU6050
 15. UART / Send or receive message on serial port
-16. CAN / Motor on RoboMaster
+16. [CAN / Motor on RoboMaster](Part.1/16.CAN_and_Motor/README.md)
 17. SPI / External Storage / BMI088
 18. DMA
 

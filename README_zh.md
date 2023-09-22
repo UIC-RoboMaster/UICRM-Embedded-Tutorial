@@ -30,7 +30,7 @@ UIC RoboMaster 战队的嵌入式系统学习教程，包括基本的开发技�
 13. 多线程初步+Flag的使用
 14. I2C/OLED/MPU6050
 15. UART/串口收发
-16. CAN/RM电机驱动
+16. [CAN/RM电机驱动](Part.1/16.CAN_and_Motor/README_zh.md)
 17. SPI/存储器使用/BMI088
 18. DMA
 
