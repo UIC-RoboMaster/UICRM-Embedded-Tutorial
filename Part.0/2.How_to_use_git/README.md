@@ -2,6 +2,12 @@
 
 [English](README.md) | [中文](README_zh.md)
 
+## 0. New version tutorial direct access
+
+[Link](https://learn.microsoft.com/en-us/training/paths/intro-to-vc-git/)
+
+# Before the last 5 lines are all nonsense
+
 ## 1. Git Introduction
 
 ### 1.1 What is Git

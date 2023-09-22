@@ -2,6 +2,13 @@
 
 [English](README.md) | [中文](README_zh.md)
 
+## 0. 新版教程直达
+
+[直达链接](https://learn.microsoft.com/zh-cn/training/paths/intro-to-vc-git/)
+
+# 到最后5行之前都是废话
+
+
 ## 1. Git 简介
 
 ### 1.1 什么是 Git
