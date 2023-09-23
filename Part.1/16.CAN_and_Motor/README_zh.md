@@ -48,6 +48,8 @@ CAN 协议中的数据帧由以下几个部分组成：
 
 ### STM32CubeMX 配置 CAN
 
+在配置 CAN 之前，我们假定您已经配置了时钟环境，并且配置了输入按钮，将按钮标签命名为 KEY。具体教程请参考[此文档](../6.Key_Input/README_zh.md)和[此文档](../2.New_Empty_Project/README_zh.md)。
+
 首先我们需要在 STM32CubeMX 中配置 CAN。
 
 在 CubeMX 中激活 CAN，并且由于我们的电路板设计，需要将 CAN 的接口绑定至 PB8 和 PB9。
@@ -55,6 +57,8 @@ CAN 协议中的数据帧由以下几个部分组成：
 设置分频系数，使得波特率为 1Mbps。（此步按照下图填写即可）
 
 打开 CAN 的自动重传与自动离线功能。（此步按照下图填写即可）
+
+注意：在设置CAN的时候可能会报错，请先按照提示调高分频系数，再调低分频系数。
 
 ![CAN](images/1.png)
 
@@ -65,6 +69,10 @@ CAN 协议中的数据帧由以下几个部分组成：
 打开 CAN 的 RX FIFO 0 中断。
 
 ![CAN](images/3.png)
+
+打开 Project Manager，打开 Advanced Settings，打开 CAN 的 Register Callbacks 以启动 CAN 的回调函数。
+
+![CAN](images/4.png)
 
 ### 代码配置
 

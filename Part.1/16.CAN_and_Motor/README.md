@@ -46,6 +46,8 @@ It is written in the manual that the ESC will store a set of IDs as the ESC ID. 
 
 ### CAN with STM32CubeMX 
 
+Before configuring CAN, we assume that you have configured the clock environment and configured the input button, and named the button label KEY. Please refer to [this document](../6.Key_Input/README.md) and [this document](../2.New_Empty_Project/README.md) for specific tutorials.
+
 First we need to configure CAN in STM32CubeMX.
 
 Activate CAN in CubeMX and due to our board design, interfaces for CAN need to be bound to PB8 and PB9.
@@ -53,6 +55,8 @@ Activate CAN in CubeMX and due to our board design, interfaces for CAN need to b
 Set the frequency division coefficient so that the baud rate is 1Mbps. (This step can be filled in according to the picture below)
 
 Turn on the automatic retransmission and automatic offline functions of CAN. (This step can be filled in according to the picture below)
+
+Note: When setting CAN, an error may be reported. Please first increase the prescaler according to the prompt, and then decrease the prescaler.
 
 ![CAN](images/1.png)
 
@@ -63,6 +67,10 @@ Turn on UART1 and set the baud rate to 115200.
 Turn on the CAN RX FIFO 0 interrupt.
 
 ![CAN](images/3.png)
+
+Turn on Project Manager, open Advanced Settings, and open CAN's Register Callbacks to start CAN's callback function.
+
+![CAN](images/4.png)
 
 ### Code
 
