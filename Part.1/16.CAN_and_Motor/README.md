@@ -38,7 +38,7 @@ CAN protocol data frame consists of the following parts:
 
 First, we need to understand the CAN protocol of RoboMaster's commonly used motors.
 
-[C620 Manual](https://rm-static.djicdn.com/tem/17348/RoboMaster%20C620无刷电机调速器使用说明（中英日）V1.01.pdf) | [C610 Manual](https://rm-static.djicdn.com/tem/RM%20C610无刷电机调速器使用说明%20发布版.pdf)
+[C620 Manual](https://www.robomaster.com/zh-CN/products/components/general/M3508) | [C610 Manual](https://www.robomaster.com/zh-CN/products/components/general/M2006)
 
 ### How to control the motor?
 

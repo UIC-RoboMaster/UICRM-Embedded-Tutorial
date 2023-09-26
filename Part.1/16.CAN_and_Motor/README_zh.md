@@ -40,7 +40,7 @@ CAN 协议中的数据帧由以下几个部分组成：
 
 首先我们需要了解 RoboMaster 常用电机的 CAN 协议。
 
-[M3508的电调C620的说明书](https://rm-static.djicdn.com/tem/17348/RoboMaster%20C620无刷电机调速器使用说明（中英日）V1.01.pdf) | [M2006的电调C610的说明书](https://rm-static.djicdn.com/tem/RM%20C610无刷电机调速器使用说明%20发布版.pdf)
+[M3508的电调C620的说明书](https://www.robomaster.com/zh-CN/products/components/general/M3508) | [M2006的电调C610的说明书](https://www.robomaster.com/zh-CN/products/components/general/M2006)
 
 ### 如何控制电机？
 
