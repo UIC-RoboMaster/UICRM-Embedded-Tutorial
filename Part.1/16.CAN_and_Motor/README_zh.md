@@ -34,7 +34,8 @@ CAN 协议中的数据帧由以下几个部分组成：
 
 ### CAN 详细介绍
 
-[查看视频](https://www.bilibili.com/video/BV1Dq4y1J7WA/?spm_id_from=333.337.search-card.all.click&vd_source=12f331bedce3ff2e9fdf30aaa1f157d3)
+[华工教学视频](https://www.bilibili.com/video/BV1Dq4y1J7WA/?spm_id_from=333.337.search-card.all.click&vd_source=12f331bedce3ff2e9fdf30aaa1f157d3)
+[中科大教学视频](https://www.bilibili.com/video/BV1HY411D7Ar/?spm_id_from=333.337.search-card.all.click)
 
 ## 使用 CAN 协议控制电机
 
