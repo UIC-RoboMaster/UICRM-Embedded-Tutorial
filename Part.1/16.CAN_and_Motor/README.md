@@ -183,6 +183,13 @@ void RxFIFO0MessagePendingCallback(CAN_HandleTypeDef *hcan)
 /* USER CODE END 0 */
 ```
 
+Because we need to use the sniprintf function, we need to add the following header files.
+
+```c
+#include <string.h>
+#include <stdio.h>
+```
+
 
 Finish the program and flash it into the board.
 

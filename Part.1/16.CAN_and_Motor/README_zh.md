@@ -185,6 +185,12 @@ void RxFIFO0MessagePendingCallback(CAN_HandleTypeDef *hcan)
 /* USER CODE END 0 */
 ```
 
+由于使用了snprintf与strlen函数，请务必在文件开头引入string库和stdio库。
+
+```c
+#include <string.h>
+#include <stdio.h>
+```
 
 程序写完并且烧录之后
 将电机的 ID 设置为1，
