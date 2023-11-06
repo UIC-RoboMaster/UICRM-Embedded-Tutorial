@@ -43,3 +43,7 @@ UIC RoboMaster 战队的嵌入式系统学习教程，包括基本的开发技�
 5. 卡尔曼滤波/AHRS/航向角获取
 6. 串级PID
 7. 云台控制
+
+#### Part.3 RM嵌入式框架
+
+1. [在框架内新建程序](Part.3/1.Setup_New_Program_In_Framework/README_zh.md)

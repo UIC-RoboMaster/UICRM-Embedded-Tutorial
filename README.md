@@ -43,3 +43,7 @@ We assume that the people joined to our team has completed the COMP1023 Course, 
 5. Karman flitter / AHRS / Get The AHRS angle
 6. Cascade PID
 7. Control the Gimbal
+
+### Part.3 RoboMaster Embedded System Framework
+
+1. [Setup New Program In Framework](Part.3/1.Setup_New_Program_In_Framework/README.md)
