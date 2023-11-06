@@ -26,15 +26,15 @@
 ## 2. 将框架内容下载到本地
 
 打开 Clion，关闭当前项目进入欢迎页面，点击`从 VCS 获取`，点击 `Github`，登录自己的GitHub帐户。
-![image](image/4.png)
+![image](images/4.png)
 
 登录之后在项目名称内输入 `https://github.com/UIC-RoboMaster/UICRM-Embedded.git`，修改本地对应的文件目录，点击 `克隆`。
 
-![image](image/5.png)
+![image](images/5.png)
 
 在打开项目向导中选中 `在编辑CMakeLists.txt文件时自动加载项目`，点击 `确定`。
 
-![image](image/6.png)
+![image](images/6.png)
 
 ## 3. 新建程序
 
