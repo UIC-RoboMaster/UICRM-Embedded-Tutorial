@@ -222,3 +222,24 @@ void RM_RTOS_Default_Task(const void* args) {
 |  user_interface.h (计划改名 rm_referee_user_interface.h) | 裁判系统UI |
 
 大家可以探索每个 Library 的功能，以及如何使用。
+
+## 5. 编译与下载程序
+
+在 Clion 左下角更新 CMake 的数据，选择当前的project名字的配置进行编译
+
+在选择配置出点击`编辑配置`，添加一组 `OpenOCD 下载并运行` 的配置，如下图所示：
+
+![image](images/1.png)
+
+将目标和二进制文件改成你的项目名字，例如 `yry0008_program1`。
+
+![image](images/2.png)
+
+将面板配置文件改成框架目录下的 `openocd/stm32f4/daplink.cfg`，点击 `确定` 保存配置。
+
+注意⚠️：面板配置文件取决于开发板型号，不同不同开发板的文件可能不一样。例如`F103_Nano_general`需要使用`openocd/stm32f1/daplink.cfg`。
+
+![image](images/3.png)
+
+点击 `运行`(三角形图标) 烧录程序，然后就可以看到程序正在运行。
+ 
