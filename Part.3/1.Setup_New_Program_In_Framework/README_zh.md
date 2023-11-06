@@ -22,7 +22,21 @@
 
 非底层适配小组一般只需要修改 `programs` 目录下的代码。
 
-## 2. 新建程序
+
+## 2. 将框架内容下载到本地
+
+打开 Clion，关闭当前项目进入欢迎页面，点击`从 VCS 获取`，点击 `Github`，登录自己的GitHub帐户。
+![image](image/4.png)
+
+登录之后在项目名称内输入 `https://github.com/UIC-RoboMaster/UICRM-Embedded.git`，修改本地对应的文件目录，点击 `克隆`。
+
+![image](image/5.png)
+
+在打开项目向导中选中 `在编辑CMakeLists.txt文件时自动加载项目`，点击 `确定`。
+
+![image](image/6.png)
+
+## 3. 新建程序
 
 在 `programs` 目录下新建一个代表自己名字的文件夹，再在该文件夹内新建一个文件夹，例如 `programs/yry0008/program1`，并在每一层文件夹下新建 `CMakeLists.txt` 文件，内容分别如下：
 
@@ -104,7 +118,7 @@ uicrm_add_arm_executable(${PROJECT_NAME}
 
 **注意⚠️：`INCLUDES`在没有自定义引用的情况下可以没有，但是`SOURCES`不能没有。**
 
-## 3. 编写程序
+## 4. 编写程序
 
 按照上一步，我们应该新建对应的程序文件在对应的目录内新建对应的程序文件。
 例如此处我们应该新建`main.cpp`
@@ -167,7 +181,7 @@ void RM_RTOS_Default_Task(const void* args) {
 }
 ```
 
-## 4. 添加各种 modules 进入程序框架。
+## 5. 添加各种 modules 进入程序框架。
 
 在每个 C++ 文件开头可以引入各种库文件，里面有各种class可以实现各种功能。
 
@@ -223,7 +237,7 @@ void RM_RTOS_Default_Task(const void* args) {
 
 大家可以探索每个 Library 的功能，以及如何使用。
 
-## 5. 编译与下载程序
+## 6. 编译与下载程序
 
 在 Clion 左下角更新 CMake 的数据，选择当前的project名字的配置进行编译
 
