@@ -172,31 +172,31 @@ void RM_RTOS_Default_Task(const void* args) {
 在每个 C++ 文件开头可以引入各种库文件，里面有各种class可以实现各种功能。
 
 #### Platform 层
-| 库文件名字 | 用途 |
-|-----------|-------|
-|  bsp_gpio.h   |   GPIO 与 GPIO 中断控制   |
-|  bsp_adc.h   |   ADC 的读取   |
-|  bsp_can.h   |   CAN 的接收与发送   |
-|  bsp_uart.h   |   UART 的接收与发送   |
-|  bsp_i2c.h   |   I2C 的接收与发送   |
-|  bsp_spi.h   |   SPI 的接收与发送(TODO)   |
-|  bsp_pwm.h   |   PWM 的输出   |
-|  bsp_error_handler.h   |   错误处理   |
-|  bsp_os.h   |   RTOS 的时钟接口   |
+| 库文件名字 | 用途 | 相关的 class |
+|-----------|-------|---------|
+|  bsp_gpio.h   |   GPIO 与 GPIO 中断控制   |   `bsp::GPIO`、`bsp::GPIT` |
+|  bsp_adc.h   |   ADC 的读取   | `bsp::bADC` |
+|  bsp_can.h   |   CAN 的接收与发送   | `bsp::CAN` |
+|  bsp_uart.h   |   UART 的接收与发送   | `bsp::UART` |
+|  bsp_i2c.h   |   I2C 的接收与发送   | `bsp::I2C` |
+|  bsp_spi.h   |   SPI 的接收与发送(TODO)   | `bsp::SPI` |
+|  bsp_pwm.h   |   PWM 的输出   | `bsp::PWM` |
+|  bsp_error_handler.h   |   错误处理   | `bsp_error_handler()`(Function) |
+|  bsp_os.h   |   RTOS 的时钟接口   | `bsp::SetHighresClockTimer()`(Function)、`bsp::GetHighresTickMicroSec()`(Function)|
 |  bsp_print.h   |   串口打印与`print`函数(类似于printf)   |
-|  bsp_usb.h   |   USB 虚拟串口的接收与发送   |
+|  bsp_usb.h   |   USB 虚拟串口的接收与发送   | `bsp::VirtualUSB` |
 
 
 #### Algorithm 层
 
-| 库文件名字 | 用途 |
-|-----------|-------|
-|  crc8.h   |   系统内通用通讯的 CRC8 校验   |
-|  pid.h   |   PID 控制器   |
-|  MahonyAHRS.h |  MahonyAHRS 算法   |
-|  power_limit.h | 功率限制算法 |
-|  utils.h | 其他计算工具函数 |
-|  arm_math.h | ARM DSP 库 |
+| 库文件名字 | 用途 | 相关的 class |
+|-----------|-------|------|
+|  crc8.h   |   系统内通用通讯的 CRC8 校验   |  |
+|  pid.h   |   PID 控制器   | `control::ConstrainedPID`、`control::PIDController` |
+|  MahonyAHRS.h |  MahonyAHRS 算法   |  |
+|  power_limit.h | 功率限制算法 |`control::PowerLimit`|
+|  utils.h | 其他计算工具函数 | `EdgeDetector`|
+|  arm_math.h | ARM DSP 库 |   |
 
 #### Drivers 层
 
