@@ -214,26 +214,26 @@ void RM_RTOS_Default_Task(const void* args) {
 
 #### Drivers 层
 
-| 库文件名字 | 用途 |
-|-----------|-------|
-|  buzzer.h | 蜂鸣器控制 |
-|  motor.h | 电机控制 |
-|  dbus.h | 遥控器信号接收 |
-|  dbus_package.h | 遥控器信号包 |
-|  oled.h | OLED 显示屏控制 |
-|  oled_fonts/各文件 | OLED 字体库与预置图片库 |
-|  protocol.h (计划改名为 rm_referee_protocol.h) | 裁判系统收发 |
-|  rgb.h | PWM 实现的 RGB 灯控制 |
-|  spi_flash.h | SPI Flash 控制(TODO) |
+| 库文件名字 | 用途 | 相关的 class |
+|-----------|-------|------|
+|  buzzer.h | 蜂鸣器控制 | `driver::Buzzer`、`driver::BuzzerNote`、`driver::BuzzerNoteDelayed` |
+|  motor.h | 项目常用电机控制 | `driver::Motor3508`、`driver::Motor2006`、`driver::Motor6020`、`driver::MotorCANBase`(Interface)、`driver::MotorPWMBase`、`driver::Motor4310`、`driver::ServoMotor`、`driver::FlyWheelMotor` |
+|  dbus.h | 遥控器信号接收 | `remote::DBUS` |
+|  dbus_package.h | 遥控器信号包 | `remote::mouse_t`、`remote::keyboard_t`(DJI传输协议用) |
+|  oled.h | OLED 显示屏控制 | `display::OLED` |
+|  oled_fonts/各文件 | OLED 字体库与预置图片库 | |
+|  protocol.h (计划改名为 rm_referee_protocol.h) | 裁判系统收发 | `communication::Protocol`、`communication::Host`、`communication::Referee` |
+|  rgb.h | PWM 实现的 RGB 灯控制 | `display::RGB` |
+|  spi_flash.h | SPI Flash 控制(TODO) | |
 
 #### Components 层
 
 | 库文件名字 | 用途 |
 |-----------|-------|
-|  chassis.h (计划改名 mecanum_chassis.h) | 麦轮底盘控制 |
-|  gimbal.h | 云台控制 |
-|  shooter.h | 发射机构控制(TODO) |
-|  user_interface.h (计划改名 rm_referee_user_interface.h) | 裁判系统UI |
+|  chassis.h (计划改名 mecanum_chassis.h) | 麦轮底盘控制 | `control::Chassis` |
+|  gimbal.h | 云台控制 | `control::Gimbal` |
+|  shooter.h | 标准发射机构控制(TODO) | `control::Shooter` |
+|  user_interface.h (计划改名 rm_referee_user_interface.h) | 裁判系统UI | `communication::UserInterface` |
 
 大家可以探索每个 Library 的功能，以及如何使用。
 
