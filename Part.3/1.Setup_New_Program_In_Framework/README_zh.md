@@ -125,7 +125,6 @@ uicrm_add_arm_executable(${PROJECT_NAME}
 在文件写入以下代码：
 
 ```cpp
-#pragma once
 // 引入STM32基础头文件
 #include "main.h"
 // 引入RTOS头文件以获得时间与多线程支持
